@@ -61,6 +61,7 @@
                     <td>
                         <a href="StudentController?action=delete&stdId=<%=student.getId()%>">Delete</a>
                         <a href="Update.jsp?stdId=<%=student.getId()%>&stdName=<%=student.getName()%>&stdRollNo=<%=student.getRollNo()%>&stdAge=<%=student.getAge()%>&stdGender=<%=student.getGender()%>&stdDob=<%=student.getDob()%>&stdPhone=<%=student.getPhone()%>&stdEmail=<%=student.getEmail()%>&stdAddress=<%=student.getAddress()%>">Update</a>
+                       
                     </td>
                 </tr>
                 <% }%>
